@@ -19,7 +19,7 @@ Buraya, kaşifte görünecek takma adınızın (doğrulayıcı) adını yazmalı
 
 1- İsim <br>
 ```shell
-NODENAME=<NODE-İSMİNİZİ-YAZIN>
+NODENAME=<testnetnodes>
 ```
 <BR>
 
