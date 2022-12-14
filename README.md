@@ -19,7 +19,7 @@ Buraya, kaşifte görünecek takma adınızın (doğrulayıcı) adını yazmalı
 
 1- İsim <br>
 ```shell
-NODENAME=testnetnodes
+NODENAME=mustafaiciren
 ```
 <BR>
 
@@ -27,7 +27,7 @@ NODENAME=testnetnodes
 
 
 ```shell
-echo "export NODENAME=testnetnodes" >> $HOME/.bash_profile
+echo "export NODENAME=mustafaiciren >> $HOME/.bash_profile
 echo "export WALLET=wallet" >> $HOME/.bash_profile
 echo "export CHAIN_ID=mars-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
@@ -92,7 +92,7 @@ marsd init $NODENAME --chain-id $CHAIN_ID
 9- Testnet için yeni cüzdan kurtarın veya oluşturun
 
 ```shell
-marsd keys add $WALLET
+marsd keys add mustafaiciren
 
 ```
 
@@ -116,7 +116,7 @@ marsd genesis add-account $WALLET_ADDRESS 1000000umars
 ```shell
 marsd genesis gentx $WALLET 1000000umars \
 --chain-id $CHAIN_ID \
---moniker=$NODENAME \
+--moniker=mustafaiciren \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
 --commission-rate=0.05 \
